@@ -20,20 +20,20 @@ const int TOP_SPEED = 100;
 
 
 void forward(){
-	motor(L_MOTOR, .5*TOP_SPEED);
-	motor(R_MOTOR, .5*TOP_SPEED);
+	motor(LEFT_MOTOR, .5*TOP_SPEED);
+	motor(RIGHT_MOTOR, .5*TOP_SPEED);
 	msleep(25);
 }
 
 void turnLeft(){
-	motor(L_MOTOR, -.75*TOP_SPEED);
-	motor(R_MOTOR, .75*TOP_SPEED);
+	motor(LEFT_MOTOR, -.75*TOP_SPEED);
+	motor(RIGHT_MOTOR, .75*TOP_SPEED);
 	msleep(100);
 }
 
 void turnRight() {
-	motor(R_MOTOR, -.75*TOP_SPEED);
-	motor(L_MOTOR,.75*TOP_SPEED);
+	motor(RIGHT_MOTOR, -.75*TOP_SPEED);
+	motor(LEFT_MOTOR,.75*TOP_SPEED);
 	msleep(100);
 }
 
