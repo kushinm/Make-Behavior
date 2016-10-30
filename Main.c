@@ -17,6 +17,16 @@ const int FALSE = 0;
 //Speed in move function will be a percentage of top speed
 const int TOP_SPEED = 100;
 
+//main loop
+int main(){
+    
+    while(1){
+	//future code	
+	}
+}
+
+
+//Move function
 void Move(int command){
     if(command == BACK_LEFT){
         motor(LEFT_MOTOR, -TOP_SPEED * 0.50);
